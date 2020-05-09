@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato&family=Roboto&display=swap');
+
+body {
+  background-color: #F0F7F4;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#btn {
+  background-color: #A1FCDF;
+  color: #353535;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#btn:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.container {
+  font-family: Roboto;
+  width: 500px;
+  margin: 0 auto;
+  color: #35605A;
+  font-family: Abel;
+  font-size: 20px;
+  line-height: 1.0;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  margin: 10px;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.footer {
+  color: grey;
+  border-radius: 5px;
+  padding-left: 0px;
+  width: 400px;
+  list-style: none;
+  margin: 10px;
+}
+
+.footer li {
+  display: inline-block;
+}
+.footer li:hover {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
